@@ -7,7 +7,7 @@
 US bikeshare Project
 
 ### Description
-making use of Python to explore data related to bikeshare systems for Washington, New York and Chicago
+making use of Python to explore data related to bikeshare systems for Washington, New York City and Chicago
 
 ### Files used
 washington.csv
@@ -15,4 +15,4 @@ new_york_city.csv
 chicago.csv
 
 ### Credits
-Thank you Udacity!
+Thank you Udacity! 
