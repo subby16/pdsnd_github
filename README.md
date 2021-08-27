@@ -15,4 +15,4 @@ new_york_city.csv
 chicago.csv
 
 ### Credits
-Thank you Udacity! 
+Thank you Udacity! I really enjoyed this project.
