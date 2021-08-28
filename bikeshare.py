@@ -178,6 +178,21 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+def data(df):
+    raw_data = 0
+    while True:
+        answer = input("Would you like to see the raw data? (please answer yes or no).\n").lower()
+        if answer not in ['yes', 'no']:
+            print("Incorrect entry, please try again")
+            continue
+        elif answer == 'yes':
+            raw_data += 5
+            print(df.iloc[raw_data:raw_data + 5])
+            again = input("Would you like to see more? (Please answer yes or no).\n").lower()
+            if again == 'no':
+                break
+        elif answer == 'no':
+            return
 
 def main():
     while True:
